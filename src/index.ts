@@ -29,3 +29,5 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log(`App started on port ${PORT}`);
 });
+
+export default app;
