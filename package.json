@@ -5,6 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
+    "bd": "npx tsc --watch",
+    "start": "node dist/index.ts",
+    "start:dev": "nodemon dist/index.js",
+    "sd": "nodemon dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +24,7 @@
   "homepage": "https://github.com/digvijayu/node-express-typescript-boilerplate#readme",
   "devDependencies": {
     "@types/express": "^4.17.13",
+    "nodemon": "^2.0.19",
     "typescript": "^4.7.4"
   },
   "dependencies": {
